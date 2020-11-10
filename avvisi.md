@@ -5,6 +5,168 @@
 # Dati COVID-19 Italia
 
 ## Avvisi
+<b>10/11/2020</b><br>
+La Regione Abruzzo segnala che sono stati conteggiati anche 21 decessi delle scorse 3 settimane, comunicati oggi dalla ASL 201 ed il cui dettaglio é stato inserito oggi nel portale ISS. Oggi è stato sottratto 1 caso dal totale dei positivi, a seguito di controlli sui dati anagrafici. La Regione Emilia Romagna segnala che in seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 7 casi in quanto giudicati non casi COVID-19.
+
+<b>09/11/2020</b><br>
+La Regione Abruzzo comunica che dal totale dei casi positivi è stato eliminato 1 caso in quanto duplicato; La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso in quanto giudicato non caso COVID-19.
+
+<b>08/11/2020</b><br>
+La Regione Abruzzo comunica che dal totale dei casi positivi è stato eliminato 1 caso in quanto paziente non covid; La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso in quanto giudicato non caso COVID-19;
+
+<b>07/11/2020</b><br>
+La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso in quanto giudicato non caso COVID-19; La Regione Abruzzo comunica che dal totale dei casi positivi è stato eliminato 1 caso in quanto duplicato.
+
+<b>06/11/2020</b><br>
+La Regione Abruzzo comunica che dal totale dei casi positivi sono stati eliminati 3 casi del 05/11/2020 in quanto duplicati e un caso in quanto già in carico ad altra regione. La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 3 casi in quanto giudicati non casi COVID-19.
+
+<b>05/11/2020</b><br>
+La Regione Emilia Romagna comunica che in seguito a verifica sui dati sono stati eliminati 3 casi in quanto giudicati non casi COVID-19. La Regione Calabria comunica che il numero dei decessi a ieri era 124, e non 125. La Regione Toscana comunica che il numero dei decessi a ieri era 1445, e non 1461. Il numero dei decessi nel report è stato aggiornato correttamente.
+
+<b>04/11/2020</b><br>
+La Regione Campania comunica che nei dati di ieri, per mero errore materiale, sono stati aggiunti 45 posti di Terapia Intensiva in più. La Regione Emilia Romagna comunica che in seguito a verifica sui dati sono stati eliminati 2 casi in quanto giudicati non casi COVID-19. La Regione Calabria comunica che ieri c'è stato un aggiornamento del bollettino regionale, che riporta una modifica nella distribuzione dei casi ricoverati e terapie intensive. Tale modifica è stata effettuata a seguito delle comunicazioni pervenute dall’azienda ospedaliera di Reggio Calabria e dall’Azienda ospedaliera di Cosenza.
+
+<b>03/11/2020</b><br>
+La Regione Emilia Romagna comunica che in seguito a verifica sui dati sono stati eliminati 3 casi in quanto giudicati non casi COVID-19; La Regione Toscana comunica che un problema tecnico al sistema informativo della prevenzione ha determinato problemi di estrazione a scapito della completa attribuzione delle province. Nei dati di oggi vi sono quindi 373 nuovi casi con provincia "in fase di verifica" che si provvederà ad attribuire domani.
+
+<b>02/11/2020</b><br>
+La Regione Campania comunica che, in data odierna, i dati della Provincia di Benevento non sono pervenuti.
+
+<b>01/11/2020</b><br>
+La regione Emilia-Romagna segnala che in seguito a verifica sui dati sono stati eliminati 2 casi in quanto giudicati non casi COVID-19.
+
+<b>31/10/2020</b><br>
+La regione Emilia Romagna segnala che in seguito a verifica sui dati sono stati eliminati due casi in quanto giudicati non casi COVID-19
+
+<b>30/10/2020</b><br>
+La Regione Calabria comunica che i casi totali a ieri erano 4.624 (e non 4.625). La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 4 casi in quanto giudicati non casi COVID-19.
+
+<b>29/10/2020</b><br>
+La Regione Abruzzo comunica che dal totale dei positivi è stato eliminato un caso di ieri in quanto duplicato. La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso in quanto giudicato non caso COVID-19. Si corregge pertanto il dato dei casi totali positivi comunicato ieri: n°corretto 50.493.
+
+<b>28/10/2020</b><br>
+La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 3 casi in quanto giudicati non casi COVID-19. Si corregge pertanto il numero totale dei positivi comunicato ieri: n° corretto 49.282.
+
+<b>27/10/2020</b><br>
+La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 5 casi in quanto giudicati non casi COVID-19. Si corregge pertanto il numero totale dei casi positivi comunicato ieri: n° corretto 47.872
+
+<b>26/10/2020</b><br>
+La Regione Abruzzo comunica che dal totale sono stati sottratti 2 casi dei giorni passati in quanto pazienti già in carico in altre Regioni e/o casi duplicati. La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 3 casi in quanto giudicati non casi COVID-19. Si corregge pertanto il numero totale dei casi comunicato ieri: N° corretto 46.731.
+
+<b>25/10/2020</b><br>
+La Calabria comunica che dei 179 nuovi casi positivi di oggi, 3 sono identificati in soggetti migranti.
+
+<b>24/10/2020</b><br>
+La Regione Basilicata comunica il seguente ricalcolo: è stato eliminato 1 caso erroneamente comunicato in data 23 ottobre. La Regione Emilia Romagna comunica il seguente ricalcolo: In seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 3 casi (da Ausl Bologna) in quanto giudicati non casi COVID-19.
+
+<b>22/10/2020</b><br>
+La Regione Toscana comunica che sono stati effettuati 758 tamponi antigenici rapidi in aggiunta ai test in PCR comunicati La Regione Abruzzo comunica il seguente ricalcolo: dal totale dei positivi è stato sottratto un caso dei giorni passati, in quanto nominativo duplicato (conteggiato due volte)
+
+<b>20/10/2020</b><br>
+La Regione Abruzzo comunica il seguente ricalcolo: Dai casi totali sono stati sottratti 3 positivi; due di questi in quanto conteggiati 2 volte nei giorni scorsi e 1 caso in quanto già in carico ad altra regione. La Regione Campania comunica che il numero dei deceduti è riferito al periodo a partire dal 13.10.20 per tardiva comunicazione di decessi avvenuti al di fuori del territorio delle rispettive ASL di competenza.
+
+<b>19/10/2020</b><br>
+La Regione Campania comunica il seguente ricalcolo: il numero dei deceduti di oggi fa riferimento al periodo a partire dal 01.10.20 per tardiva comunicazione di decessi avvenuti al di fuori del territorio delle rispettive ASL di competenza. La Regione Emilia Romagna comunica il seguente ricalcolo: in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso ( da Rimini ) in quanto giudicato non caso COVID-19. Si corregge pertanto il numero totale dei casi comunicati ieri. il numero corretto è 40858.
+
+<b>16/10/2020</b><br>
+La Regione Abruzzo comunica il seguente ricalcolo: Dal totale è stato sottratto un caso segnalato nei giorni passati, in quanto già in carico ad altra Regione.
+
+<b>15/10/2020</b><br>
+La Regione Abruzzo comunica il seguente ricalcolo: Dal totale è stato sottratto un caso comunicato nei giorni scorsi in quanto conteggiato 2 volte. La Regione Sicilia comunica che dei 399 nuovi casi positivi di oggi, si rilevano n.14 migranti ospiti presso l'hotspot di Lampedusa
+
+<b>13/10/2020</b><br>
+2020-10-13T17:00:00,"La regione Calabria comunica che dei 44 nuovi casi positivi di oggi, 4 sono migranti; La regione Emilia Romagna comunica il seguente ricalcolo: In seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 3 casi in quanto giudicati non casi COVID-19; si corregge pertanto il numero dei casi comunicato ieri: n corretto 38.015.
+
+<b>12/10/2020</b><br>
+La Regione Calabria comunica che dei 53 nuovi casi positivi di oggi,21 sono migranti.
+
+<b>09/10/2020</b><br>
+La Regione Calabria segnaladei n.42 casi positivi di oggi, 3 sono migranti.
+
+<b>08/10/2020</b><br>
+La Regione Basilicata segnala che N. 02 CASI POSITIVI ODIERNI E SEGNALATI NEL COMPUTO TOTALE DEI NUOVI CASI SI RIFERISCONO A RESIDENTI IN ISOLAMENTO IN PUGLIA CHE HANNO UTILIZZATO PER L'ESECUZIONE E LA DIAGNOSI DI SARS CoV-2 LABORATORI ACCREDITATI DELLA REGIONE BASILICATA. La Regione Sicilia segnala che Dei 259 nuovi positivi, si rileva n.1 migrante. La Regione Umbria segnala che i casi testati di ieri erano 130552 e non come erroneamente digitato 135552; oggi il dato corretto è quello riportato, ossia 131965.
+
+<b>07/10/2020</b><br>
+La regione Abruzzo segnala che Dai positivi è stato sottratto un caso comunicato il 5/10 già in carico ad altra regione. La regione Basilicata segnala che N. 10 CASI POSITIVI ODIERNI E SEGNALATI NEL COMPUTO TOTALE DEI NUOVI CASI SI RIFERISCONO A RESIDENTI IN ISOLAMENTO IN PUGLIA CHE HANNO UTILIZZATO PER L'ESECUZIONE E LA DIAGNOSI DI SARS CoV-2 LABORATORI ACCREDITATI DELLA REGIONE BASILICATA.
+
+<b>06/10/2020</b><br>
+La Regione Abruzzo segnala che oggi sono stati riscontrati n.50 nuovi positivi, ma sono stati sottratti dal totale 2 casi dei giorni passati in quanto già in carico ad altre Regioni. La Regione Calabria segnala che dei 23 positivi di oggi 23 sono migranti. La Regione Sicilia segnala che dei 198 nuovi positivi, si rilevano n.2 migranti.
+
+<b>05/10/2020</b><br>
+La Regione Calabria segnala che dei 23 positivi di oggi 4 sono migranti.
+
+<b>03/10/2020</b><br>
+La Regione Calabria segnala che dei 24 positivi di oggi 4 sono migranti. La Regione Emilia Romagna segnala che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso da Modena in quanto giudicato non caso COVID-19. Si corregge pertanto il numero totale dei casi positivi comunicato ieri: n corretto 35.576. La Regione Sicilia segnala che dei 182 nuovi positivi, si rilevano n.2 migranti ospiti presso l'hotspot di Lampedusa.
+
+<b>02/10/2020</b><br>
+La Regione Calabria segnala che dei 18 positivi di oggi uno è un migrante. La Regione Piemonte segnala che dei 219 casi, 58 sono riallineamenti riferiti alla giornata di ieri.
+
+<b>01/10/2020</b><br>
+La Regione Sardegna segnala che l'incremento del n° dei ricoverati scaturisce da un errato conteggio del 29 settembre. Si segnala: decesso di pz di 78 aa ricoverato a Cagliari residente nella provincia di Oristano.
+
+<b>30/09/2020</b><br>
+La Regione Abruzzo segnala che dai positivi è stato sottratto un caso di ieri già in carico ad altra regione. La Regione Calabria segnala che dei18 positivi di oggi 4 sono migranti. La Regione Sardegna segnala 3 nuovi decessi: - 2 persone residenti nel territorio della Provincia del Sud Sardegna, uno ricoverato di 78 anni, uno deceduto all'accesso in Pronto Soccorso presso l'ospedale Santissima Trinità di Cagliari, di 75 anni; - 1 persona residente nel territorio della Provincia di Sassari, di 90 anni, con plurime comorbilità. La Regione Sicilia segnala che dei 170 nuovi positivi, si rilevano 29 militari della marina sbarcati a Siracusa dalla Nave Margottini
+
+<b>29/09/2020</b><br>
+La Regione ABRUZZO segnala che dai positivi è stato sottratto un caso di ieri già in carico ad altra regione. La Regione CALABRIA segnala che dei 10 positivi di oggi tre sono migranti. La Regione SICILIA segnala che dei nuovi positivi, n.2 migranti ospiti presso l'hotspot di Lampedusa.
+
+<b>27/09/2020</b><br>
+La Regione Sicilia ha comunicato che dei 107 nuovi casi positivi di oggi, 7 sono migranti ospiti dell'Hotspot di Lampedusa. La Regione Calabria ha comunicato che dei 31 nuovi casi positivi di oggi, 24 sono migranti. La Regione Basilicata ha comunicato che l'aumento del numero di casi odierno rispetto al trend dei giorni scorsi è dovuto ad un cluster in una casa di riposo (28 casi tra assistiti e operatori sanitari) e all'attività di contract tracing.
+
+<b>25/09/2020</b><br>
+La Regione Sicilia comunica che dei 107 nuovi casi positivi di oggi, si rilevano n.6 migranti ospiti presso l'hotspot di Lampedusa.
+
+<b>24/09/2020</b><br>
+La Regione Sicilia comunica che degli 89 nuovi casi positivi di oggi, 9 risultano ospiti della comunità 'Biagio Conte' e 1 migrante (Hotspot Lampedusa). La Regione Calabria comunica che dei 19 nuovi casi positivi di oggi, 1 è migrante
+
+<b>23/09/2020</b><br>
+La Regione Sicilia comunica che degli 89 nuovi casi positivi di oggi, 9 risultano ospiti della comunità "Biagio Conte" e 1 migrante (Hotspot Lampedusa). La Regione Calabria comunica che dei 19 nuovi casi positivi di oggi, 1 è migrante
+
+<b>22/09/2020</b><br>
+La Regione Calabria comunica che dei 24 nuovi casi positivi di oggi, 20 sono migranti. La Regione Emilia Romagna comunica che in seguito a verifica è stato eliminato 1 caso in quanto inserimento duplicato dello stesso paziente con dati anagrafici non corretti. Si corregge pertanto il numero dei casi comunicato ieri: n corretto 34.455. La Regione Sicilia comunica che dei 108 nuovi casi positivi di oggi, 5 sono ospiti della comunità 'Biagio Conte' (Palermo)
+
+<b>21/09/2020</b><br>
+La Regione Abruzzo comunica che l'aggiornamento riportato fa riferimento a 3 giorni (sabato, domenica e lunedì). La Regione Sicilia comunica che dei 75 nuovi casi positivi di oggi, 21 sono ospiti della comunità 'Biagio Conte' di Palermo.
+
+<b>20/09/2020</b><br>
+La Regione Abruzzo comunica che non sarà possibile elaborare i dati COVID per i giorni 19 e 20 settembre. Per questi giorni verrano riportati gli stessi valori del 18 settembre; l'aggiornamento avverrà il 21 settembre. La Regione Sicilia comunica che dei nuovi 116 soggetti positivi al tampone,66 sono ospiti della comunità 'Biagio Conte' di Palermo.
+
+<b>19/09/2020</b><br>
+La Regione Abruzzo comunica che non sarà possibile elaborare i dati COVID per i giorni 19 e 20 settembre. Per questi giorni verrano riportati gli stessi valori del 18 settembre; l'aggiornamento avverrà il 21 settembre. La Regione Calabria comunica che dei 25 nuovi casi positivi di oggi, 4 sono migranti. La Regione Sicilia comunica che dei 98 nuovi casi positivi di oggi, 1 è migrante. La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 casi (da Reggio Emilia) in quanto giudicato non caso COVID-19. Si corregge pertanto il numero totale dei casi positivi comunicato ieri: n corretto di ieri 34.092.
+
+<b>18/09/2020</b><br>
+La Regione Sicilia comunica che dei 179 nuovi casi positivi di oggi, 21 sono ospiti della Comunità "Biagio Conte" e 37 sono migranti ospiti degli hotspot siciliani. La Regione Calabria comunica che dei 28 nuovi casi positivi di oggi, 12 sono migranti.
+
+<b>17/09/2020</b><br>
+La Regione Sicilia comunica che dei 96 nuovi casi positivi di oggi, 2 sono migranti ospiti presso l'hotspot di Lampedusa. La Regione Calabria comunica che dei 16 nuovi casi positivi di oggi, 3 sono migranti. La Regione Abruzzo comunica che oggi sono risultati 33 nuovi casi positivi. Dal totale però sono stati sottratti 2 casi dei giorni passati, in quanto già in carico ad altre Regioni.
+
+<b>16/09/2020</b><br>
+La Regione Calabria comunica che dei 19 nuovi casi positivi di oggi, 8 sono migranti. La Valle D'Aosta comunica che ieri, 15 settembre, per mero errore materiale sono stati inseriti n. 131 casi da screening anziché 130, pertanto oggi tale dato è stato aggiornato correttamente.
+
+<b>15/09/2020</b><br>
+La Regione Sicilia comunica che dei 77 nuovi casi positivi di oggi, 2 sono migranti ospiti presso l'hotspot di Lampedusa.
+
+<b>14/09/2020</b><br>
+La Regione Sicilia comunica che dei 65 nuovi casi positivi di oggi, 6 sono migranti ospiti presso l'hotspot di Lampedusa.
+
+<b>13/09/2020</b><br>
+La Regione Calabria comunica che dei 14 positivi di oggi, 2 sono migranti. La Regione Emilia Romagna comunica il seguente ricalcolo: In seguito a verifica sui dati comunicati nei giorni passati sono stati eliminati 2 casi in quanto giudicati non casi COVID-19. Si corregge pertanto il numero totale dei casi positivi comunicato ieri: n corretto 33.361. La Regione Sicilia comunica che dei 61 positivi di oggi, 3 sono migranti (1 a Siracusa e 2 a Ragusa). La Regione Sardegna comunica che il numero totale dei ricoverati non in T.I. è stato aggiornato con i dati reperiti in data odierna dal P.O. San Francesco di Nuoro.
+
+<b>12/09/2020</b><br>
+La Regione Calabria comunica che dei 18 soggetti positivi di oggi, 7 sono migranti e 1 è un soggetto residente fuori Regione
+
+<b>11/09/2020</b><br>
+La Regione Sicilia comunica che dei 104 nuovi positivi di oggi, 11 sono migranti ospiti presso la nave Azzurra in rada al porto di Augusta.
+
+<b>09/09/2020</b><br>
+La Regione Abruzzo comunica che dal totale dei casi positivi sono stati sottratti 3 casi di ieri, in quanto in carico ad altra Regione. La Regione Emilia Romagna comunica che in seguito a verifica sui dati comunicati nei giorni passati è stato eliminato 1 caso in quanto giudicato non caso COVID-19. Si corregge pertanto il numero totale dei casi positivi comunicato ieri: n corretto TOT 32.853.
+
+<b>08/09/2020</b><br>
+La Regione Abruzzo comunica che dal totale dei casi positivi è stato sottratto 1 caso segnalato nei giorni passati, in quanto già in carico ad altra Regione.
+
+<b>07/09/2020</b><br>
+La Regione Sicilia comunica che dei 49 nuovi positivi di oggi, 15 sono ospiti dell'hotspot di Lampedusa; La Regione Campania comunica che l'incremento odierno dei casi positivi è 218, sebbene la differenza tra il totale dei casi positivi di oggi e quello di ieri è 260 poiché 42 casi positivi sono da attribuire ai giorni scorsi (residuo screening); La Regione Calabria comunica che dei 17 nuovi positivi di oggi, 3 sono migranti;
+
 <b>06/09/2020</b><br>
 La Regione CALABRIA segnala che dei 27 positivi di oggi 8 sono migranti. La Regione Emilia Romagna segnala che in seguito a verifica sui dati comunicati nei giorni scorsi è stato eliminato 1 caso da Reggio Emilia in quanto giudicato non caso COVID-19. Si corregge pertanto il numero totale dei casi positivi comunicato ieri: n corretto 32.504. In seguito a verifica, un decesso precedentemente comunicato è stato giudicato non attribuibile a COVID-19. Si corregge pertanto il numero totale dei decessi comunicato ieri: n corretto 4.463. La Regione Sicilia segnala che DEI NUOVI 37 SOGGETTI POSITIVI AL TAMPONE, 8 sono Immigrati ospiti nei Centri di Accoglienza
 
