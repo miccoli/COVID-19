@@ -26,14 +26,25 @@ R_COLS_INV = [[R_COLS[j] for j in c.nonzero()[0]] for c in R_COEFF]
 assert np.linalg.matrix_rank(R_COEFF) == len(R_COEFF)
 
 
-def read_csv(p):
-    frame = pd.read_csv(
-        p,
-        encoding="UTF-8",
-        na_values=[""],
-        keep_default_na=False,
-        parse_dates=["data"],
-    )
+def read_csv(pth):
+    frame = None
+    try:
+        frame = pd.read_csv(
+            pth,
+            encoding="UTF-8",
+            na_values=[""],
+            keep_default_na=False,
+            parse_dates=["data"],
+        )
+    except pd.errors.ParserError as exc:
+        print(
+            "\n* {}:\n  CSV PARSE ERROR: {}".format(
+                pth,
+                str(exc).strip(),
+            ),
+            file=sys.stderr,
+        )
+
     return frame
 
 
@@ -51,7 +62,7 @@ def check_regioni(pth, regioni):
     if len(delta) == 0:
         return 0
 
-    print("\n* {}:".format(pth))
+    print("\n* {}:".format(pth), file=sys.stderr)
     for i in range(len(R_COEFF)):
         pos = invariant == i
         if np.count_nonzero(pos) == 0:
@@ -61,7 +72,7 @@ def check_regioni(pth, regioni):
         assert (wrong.index == regs).all()
         wrong["*DELTA*"] = delta[pos]
         print(
-            "  INVARIANT[{}] ERROR".format(i),
+            "  INVARIANT[{}] ERROR on {} rows".format(i, len(wrong)),
             textwrap.indent(
                 wrong.to_string(
                     index=False,
@@ -75,26 +86,70 @@ def check_regioni(pth, regioni):
     return len(delta)
 
 
+def count_diff(a, b):
+    if a.equals(b):
+        return 0
+
+    diff = 0
+
+    pos = ~(a.isna() & b.isna())
+    diff += (a[pos] != b[pos]).sum()
+
+    return diff
+
+
+def check_regioni_all(ref, df, pth):
+
+    if ref.equals(df):
+        return 0
+
+    # here we have problems ...
+
+    print("\n* {}: NOT EQUIVALENT TO DAILY FILES".format(pth), file=sys.stderr)
+
+    # first check if dataframes are aligned
+
+    if (ref.columns != df.columns).any():
+        print("  Columns are not aligned", file=sys.stderr)
+        return 1
+
+    if len(ref) != len(df):
+        print(
+            "  Different number of rows: exptected {}, is {}".format(len(ref), len(df))
+        )
+        return 1
+
+    assert ref.index.equals(df.index)
+
+    errors = 0
+    for c in ref.columns:
+        errors += (d := count_diff(ref[c], df[c]))
+        if d > 0:
+            print("  Column '{}': {} differences".format(c, d), file=sys.stderr)
+
+    return errors
+
+
 def main():
+
+    # check dati-regioni daily files and consolidate them in dati_regioni
+    dati_regioni = pd.DataFrame()
     errors = 0
 
-    # check dati-regioni
     for pth in sorted(
         Path("dati-regioni").glob("dpc-covid19-ita-regioni-????????.csv")
     ):
-        try:
-            df = read_csv(pth)
-        except pd.errors.ParserError as exc:
-            print(
-                "ParseError reading '{}': '{}'".format(
-                    pth,
-                    str(exc).strip(),
-                ),
-                file=sys.stderr,
-            )
+        if (df := read_csv(pth)) is None:
             errors += 1
             continue
         errors += check_regioni(pth, df)
+        dati_regioni = dati_regioni.append(df, ignore_index=True)
+
+    pth = Path("dati-regioni") / "dpc-covid19-ita-regioni.csv"
+    if (df := read_csv(pth)) is None:
+        errors += 1
+    else:
+        errors += check_regioni_all(dati_regioni, df, pth)
 
     if errors:
         sys.exit("\nFound {:d} error(s)".format(errors))
