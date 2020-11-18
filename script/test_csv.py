@@ -57,7 +57,7 @@ def read_csv(pth):
     return frame
 
 
-def check_inv_regioni(df):
+def check_inv(df):
     data = df[R_COLS].to_numpy()
     if np.isnan(data).any():
         # nans in relevant data columns:
@@ -76,7 +76,7 @@ def check_inv_regioni(df):
 
 def check_regioni(pth, regioni):
 
-    delta, (invariant, ri) = check_inv_regioni(regioni)
+    delta, (invariant, ri) = check_inv(regioni)
     assert delta.shape == invariant.shape == ri.shape
 
     # na values means that check was not performed, due to missing data
@@ -113,6 +113,36 @@ def check_regioni(pth, regioni):
     return len(delta)
 
 
+def check_nazionale(pth, nazionale, regioni):
+
+    ref = regioni.drop(
+        columns=[
+            "stato",
+            "data",
+            "codice_regione",
+            "denominazione_regione",
+            "lat",
+            "long",
+        ]
+    ).sum(skipna=False)
+
+    assert len(nazionale) == 1 and 0 in nazionale.index
+    q = nazionale.loc[0, ref.index].astype(ref.dtype)
+    if not ref.equals(q):
+        diff = ref - q
+        diff = diff.dropna()
+        diff = diff[diff != 0]
+        print(
+            "\n* {}: differences with sum of regioni data\n{}".format(
+                pth, textwrap.indent(diff.to_string(), "  | ")
+            ),
+            file=sys.stderr,
+        )
+        return len(diff)
+    else:
+        return 0
+
+
 def count_diff(a, b):
     if a.equals(b):
         return 0
@@ -125,58 +155,34 @@ def count_diff(a, b):
     return diff
 
 
-def check_regioni_all(ref, df, pth):
-
-    if ref.equals(df):
-        return 0
-
-    # here we have problems ...
-
-    print("\n* {}: NOT EQUIVALENT TO DAILY FILES".format(pth), file=sys.stderr)
-
-    # first check if dataframes are aligned
-
-    if (ref.columns != df.columns).any():
-        print("  Columns are not aligned", file=sys.stderr)
-        return 1
-
-    if len(ref) != len(df):
-        print(
-            "  Different number of rows: exptected {}, is {}".format(len(ref), len(df))
-        )
-        return 1
-
-    assert ref.index.equals(df.index)
-
-    errors = 0
-    for c in ref:
-        errors += (d := count_diff(ref[c], df[c]))
-        if d > 0:
-            print("  Column '{}': {} differences".format(c, d), file=sys.stderr)
-
-    return errors
-
-
 def main():
 
-    # check dati-regioni daily files and consolidate them in dati_regioni
-    dati_regioni = pd.DataFrame()
     errors = 0
 
     for pth in sorted(
         Path("dati-regioni").glob("dpc-covid19-ita-regioni-????????.csv")
     ):
+        *_, stem = pth.stem.rsplit("-", maxsplit=2)
+        assert _ == ["dpc-covid19-ita", "regioni"]
+        pth_nazionale = (
+            Path("dati-andamento-nazionale")
+            / f"dpc-covid19-ita-andamento-nazionale-{stem}.csv"
+        )
+        pth_province = Path("dati-province") / f"dpc-covid19-ita-province-{stem}.csv"
+        assert pth_nazionale.is_file() and pth_province.is_file()
+
+        # first check if file is readable
         if (df := read_csv(pth)) is None:
             errors += 1
             continue
-        errors += check_regioni(pth, df)
-        dati_regioni = dati_regioni.append(df, ignore_index=True)
 
-    pth = Path("dati-regioni") / "dpc-covid19-ita-regioni.csv"
-    if (df := read_csv(pth)) is None:
-        errors += 1
-    else:
-        errors += check_regioni_all(dati_regioni, df, pth)
+        # check invariants
+        errors += check_regioni(pth, df)
+
+        if (df_nazionale := read_csv(pth_nazionale)) is None:
+            errors += 1
+        else:
+            errors += check_nazionale(pth_nazionale, df_nazionale, df)
 
     if errors:
         sys.exit("\nFound {:d} error(s)".format(errors))
