@@ -6,6 +6,19 @@ All changes to the project, new features and information are documented in this 
 
 - Data quality analysis notes
 - Updates on previous days based on data recalculation notes from Regions
+- After January 6, 2021, the updates of the new areas with the containment measures will be carried out only on the generalized file
+
+## 2020-12-29
+
+- Modification: also added a generalized version (-g) of the dataset relating to the new areas with containment measures at national level (red, orange and yellow areas).
+
+## 2020-12-24
+
+- Change: updated shapefile with new containment measures at national level (red, orange and yellow areas) with related metadata.
+
+## 2020-12-20
+
+- Change: updated shapefile with new containment measures at national level (red, orange and yellow areas) with related metadata.
 
 ## 2020-12-13
 
